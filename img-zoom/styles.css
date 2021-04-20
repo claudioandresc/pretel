@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0; }
+
+* { border:0; margin:0; padding:0; }
+
+p { 
+	position:absolute;
+	display:block;
+	/*width:100%;*/
+	top:10px;
+	left:20px;
+	color:#444;
+	font:bold 11px Arial;
+	text-align:center;
+	/*text-shadow: 2px 2px 1px #fff;
+	filter: DropShadow(Color=#fff,OffX=2,OffY=2,Positive=1);
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#fff,direction=135,strength=2);*/
+}
+
+.zoom {
+	display:inline-block;
+	position: relative;
+}
+
+/* magnifying glass icon */
+.zoom:after {
+	content:'';
+	display:block; 
+	width:33px; 
+	height:33px; 
+	position:absolute; 
+	top:0;
+	left:0;
+	background:url(icon.png);
+}
+
+.zoom img { display: block; }
+
+.zoom img::selection { background-color: transparent; }
+
+#ex2 img:hover { cursor: url(grab.cur), default; }
+#ex2 img:active { cursor: url(grabbed.cur), default; }

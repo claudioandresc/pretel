@@ -1,0 +1,3 @@
+<div id="footer" class="common" style="padding:20px 0; background-image:none;">
+<span style="color:#c77070; line-height:28px;">Pretel es una marca de Diclap’s Confecciones C.A. - RIF J-00242961-5.</span><br />
+Sitio Web desarrollado por <a href="http://zaloom.net" target="_blank" style="padding:0; color:#779ead; line-height:0;"><strong>ZalooM.net</strong></a>. Todos los derechos reservados &copy;2014.</div>
